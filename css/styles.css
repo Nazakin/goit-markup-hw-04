@@ -441,7 +441,8 @@ h1,h2,h3,p,ul{
     margin-bottom: 8px;
   }
 .icon-media{
-    
+width: 40px;
+height: 40px;
 }
 .fifth-section{
     padding: 120px 0;
@@ -525,4 +526,13 @@ margin-bottom: 16px;
 .social-media-link:hover,
 .social-media-link:focus{
     background-color: #31d0aa;
+}
+.customer-list{
+    display: flex;
+    gap: 24px;
+
+}
+.svg-social-media{
+    width: 40px;
+    height: 40px
 }
