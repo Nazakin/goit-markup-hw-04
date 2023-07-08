@@ -51,7 +51,7 @@
     <section class="first-section">
         <div class="container">
     <h1 class="big-text">Effective Solutions for Your Business </h1>
-    <button type="button" class="button">Order Service</button>
+    <button type="button" class="button" data-modal-open>Order Service</button>
     </div>
     </section>
     <section class="second-section">
@@ -352,8 +352,17 @@
 </div>
 </footer>
 
+<div data-modal class="modal is-hidden">
+    <div class="window">
+<button type="button" data-modal-close class="modal-button">
+    <svg class="modal-window-close" width="8px" height="8px">
+        <use href="./images/symbol-defs.svg#close"></use>
+    </svg>
+</button>
 
-
+</div>
+</div>
+<script src="./js/modal.js"></script>
 </body>
 
 
