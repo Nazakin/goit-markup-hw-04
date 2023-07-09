@@ -422,7 +422,7 @@ h1,h2,h3,p,ul{
   .hover-text:hover .text{
     transform: translateY(0%);
   }
-  .aaa:hover:after{
+  .aaa:hover::after{
     border-radius: 2px;
     background-color: #404BBF;
     content: "";
