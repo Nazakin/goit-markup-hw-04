@@ -529,6 +529,7 @@ margin-bottom: 16px;
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 .social-media-link:hover,
 .social-media-link:focus{
@@ -542,7 +543,7 @@ margin-bottom: 16px;
 .svg-social-media{
     width: 40px;
     height: 40px
-    fill: var(var(--white))
+    fill: var(var(--white));
 }
 .customers{
     width: calc((100% - 120px) / 6);
