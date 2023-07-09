@@ -585,7 +585,7 @@ margin-bottom: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--white);
-    pad: 40px 32px;
+    padding: 40px 32px;
     background-color: #4d5ae5;
     height: 100%;
     width: 100%;
