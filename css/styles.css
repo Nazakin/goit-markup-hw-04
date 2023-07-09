@@ -60,10 +60,6 @@ h1{
 .nav:focus{
     color:#404bbf
 }
-{
-    color: #434455;
-
-}
 .contact-info:hover,
 .contact-info:focus{
     color: #404bbf;
@@ -423,9 +419,6 @@ h1,h2,h3,p,ul{
   .hover-text:hover .text{
     transform: translateY(0%);
   }
-  .aaa::after{
-    content: ;
-  }
   .aaa:hover::after{
     border-radius: 2px;
     background-color: #404BBF;
@@ -513,9 +506,6 @@ margin-bottom: 16px;
 }
 .footer-section-one{
     margin-right: 120px;
-}
-.footer-section-two{
-
 }
 .footer-social-media-list{
     display: flex;
@@ -618,7 +608,7 @@ margin-bottom: 16px;
     position: absolute;
     top: 50%;
     left: 50%;
-    translate(-50%, -50%) scale(1);
+    translate (-50%, -50%) scale(1);
     width: 408px;
     min-height: 584px;
     background: #fcfcfc;
