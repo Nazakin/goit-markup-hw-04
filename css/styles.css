@@ -440,6 +440,7 @@ h1,h2,h3,p,ul{
     bottom: -1px;
     height: 4px;
     background-color: #404BBF;
+    border-radius: 2px;
 
   }
 
@@ -548,7 +549,7 @@ margin-bottom: 16px;
 .svg-social-media{
     width: 40px;
     height: 40px
-    fill: (var(--white));
+    fill: var(var(--white))
 }
 .customers{
     width: calc((100% - 120px) / 6);
