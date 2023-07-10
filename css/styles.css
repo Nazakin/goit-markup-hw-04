@@ -46,7 +46,7 @@ h1{
 :root{
     --navy-blue: #2e2f42;
     --slate: #434455;
-    --white: #f4f4fd;
+    --white-color: #f4f4fd;
 }
 .nav{
     color: #2e2f42;
@@ -549,7 +549,7 @@ margin-bottom: 16px;
 .svg-social-media{
     width: 40px;
     height: 40px
-    fill: var(var(--white))
+    fill: var(--white-color);
 }
 .customers{
     width: calc((100% - 120px) / 6);
