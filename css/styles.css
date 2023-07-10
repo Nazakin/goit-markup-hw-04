@@ -457,8 +457,7 @@ h1,h2,h3,p,ul{
     margin-bottom: 8px;
   }
 .icon-media{
-width: 40px;
-height: 40px;
+
 }
 .fifth-section{
     padding: 120px 0;
@@ -547,8 +546,7 @@ margin-bottom: 16px;
 
 }
 .svg-social-media{
-    width: 40px;
-    height: 40px
+   
     fill: var(--white-color);
 }
 .customers{
